@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>🌹myFirstWebsiteInBootstrap</title>
+  <!-- add Fonts type from Fonts.google.com -->
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+  <!-- add bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- add iCON next to the button  from fontawesome.com -->
+  <script src="https://kit.fontawesome.com/d0a6e8d7db.js" crossorigin="anonymous"></script>
+
+  <!-- add bootstap javascript code from bootstap.com -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section id="title">
+    <!--Use .container-fluid for a full width container, spanning the entire width of the viewport.-->
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    <!-- navbar backgroung-color like: bg-dark -->
+    <nav class="navbar  navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">Hiba<em>Flower</em></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="row">
+      <!-- add the size of layout in diffrent devices-->
+      <div class="col-lg-6">
+        <h1 class="title-class">Something Special just for you 🎁</h1>
+        <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light  btn-lg"><i class="fab fa-google-play"></i> Download</button>
+      </div>
+    <div class="col-lg-6">
+      <img class="title-img" src="images/59aef78e8170e075c4011f039abc4cc5.jpg" alt="iphone-mockup">
+    </div>
+  </div>
+</div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="row">
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-check-circle fa-4x"></i>
+      <h3>Flowers.</h3>
+      <p>For a special day.</p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-birthday-cake fa-4x"></i> <!--fa-4x make the icone bigger size -->
+      <h3>Celebrate.</h3>
+      <p>Birthday,Anniversary,...</p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-gifts fa-4x"></i>
+      <h3> Gift.</h3>
+      <p>Find the love of your Gift Box.</p>
+    </div>
+  </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <h2>The Best Gifts to Send Someone in Quarantine.</h2>
+          <img class="testimonials-img" src="images/20191224155016_5e01c33849580.webp" alt="dog-profile">
+        </div>
+        <div class="carousel-item" >
+          <h2 class="testimonial-text"> Nothing makes a birthday girl’s day more than receiving surprise flowers in the mail.</h2>
+          <img class="testimonials-img" src="images/151228-5585.jpg" alt="lady-profile">
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+
+  <!-- Press -->
+  <section id="press">
+    <img class="press-logo"src="images/il_570xN.1358910255_9w4c.jpg" alt="tc-logo">
+    <img class="press-logo"src="images/th.jpg" alt="tnw-logo">
+    <img class="press-logo"src="images/O1CN01qtcbTx1QOvZpDyhiN_!!6000000001967-0-tbvideo.gif" alt="biz-insider-logo">
+    <img class="press-logo"src="images/rBVaWVwd9dSAczvxAAD5b62_LUc487.jpg" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+  <section id="pricing">
+
+    <h2>Design's Choice</h2>
+    <p>The Biggest Selection of Gift Ideas For Any Occasions.</p>
+    <div class="row">
+      <div class="pricing-Cards-colitem col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>LÉ MINI™ (ROSESQUARE)</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49</h2>
+            <p>SMALL ROSES</p>
+            <p>BOX: CLASSIC</p>
+            <p>Your Choose ROSE color</p>
+            <button class="btn btn-lg btn-black btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="pricing-Cards-colitem col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Gift Box</h3>
+            </div>
+            <div class="card-body">
+              <h2>$39</h2>
+              <p>Add Flowers Options ($5)</p>
+              <p>Add Gift Options ($3)</p>
+              <p>Box Options ($5-$10)</p>
+              <button class="btn btn-lg btn-black btn-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+      <div class="pricing-Cards-colitem col-lg-4">
+        <div class="card">
+          <div class="card-header">
+          <h3>Chocolates Box</h3>
+        </div>
+        <div class="card-body">
+          <h2>$29</h2>
+          <p>Add Flowers Options ($5)</p>
+          <p>Add Gift Options ($3)</p>
+          <p>Free Gift</p>
+          <button class="btn btn-lg btn-black btn-dark" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+  <section id="cta">
+    <h3 class="cta-h3">Draw your Gifts Ideas Design .</h3>
+    <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light  btn-lg"><i class="fab fa-google-play"></i> Download</button>
+  </section>
+
+
+  <!-- Footer -->
+  <footer id="footer">
+      <i class="footer-icons fab fa-facebook-f"></i>
+      <i class="footer-icons fab fa-instagram"></i>
+      <i class="footer-icons fab fa-twitter"></i>
+      <i class="footer-icons fas fa-envelope-open-text"></i>
+      <p>© Copyright 2020 🌹HibaFlower</p>
+
+  </footer>
+
+
+</body>
+
+</html>
